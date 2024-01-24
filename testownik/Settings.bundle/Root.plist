@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Page title</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Key</key>
+			<string>version_key</string>
+			<key>DefaultValue</key>
+			<string>1.0 Build 1963</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>System language</string>
+			<key>Key</key>
+			<string>system_lang_key</string>
+			<key>DefaultValue</key>
+			<string>pl-PL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>File</key>
+			<string>Repeat</string>
+			<key>Title</key>
+			<string>Repeat options</string>
+			<key>Key</key>
+			<string>repeat_key</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Listening (voice command)</string>
+			<key>Key</key>
+			<string>listening_key</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Speaking (reading text)</string>
+			<key>Key</key>
+			<string>speaking_key</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Speech range</string>
+			<key>Key</key>
+			<string>speaking_level</string>
+			<key>File</key>
+			<string>Speaking</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Dark thema (shake iPhone)</string>
+			<key>Key</key>
+			<string>dark_thema_key</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Charset code of text</string>
+			<key>Key</key>
+			<string>code_page_key</string>
+			<key>DefaultValue</key>
+			<string>utf8</string>
+			<key>Values</key>
+			<array>
+				<string>utf8</string>
+				<string>iso9</string>
+				<string>win1250</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>UTF 8</string>
+				<string>ISO 9</string>
+				<string>Windows 1250</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Reset to  default</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Delete all tests    (Attention  !!!)</string>
+			<key>Key</key>
+			<string>delete_tests_key</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Application language</string>
+			<key>Key</key>
+			<string>language_key</string>
+			<key>DefaultValue</key>
+			<string>automatic</string>
+			<key>Titles</key>
+			<array>
+				<string>Automatic (from system)</string>
+				<string>English</string>
+				<string>German</string>
+				<string>French</string>
+				<string>Spanish</string>
+				<string>Polish</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>automatic</string>
+				<string>english</string>
+				<string>german</string>
+				<string>french</string>
+				<string>spanish</string>
+				<string>polish</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

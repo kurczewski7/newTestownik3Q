@@ -1,0 +1,6 @@
+X0010
+Który skrót ma najwiêkszy zwi¹zek ze sterowaniem odpornym?
+MPC
+SVD
+MFC
+LS

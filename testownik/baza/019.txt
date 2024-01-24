@@ -1,0 +1,5 @@
+X010
+Regulacja K(s)=1 to:
+uk³ad otwarty
+uk³ad zamkniêty
+uk³ad stabilny

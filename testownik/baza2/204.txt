@@ -1,0 +1,7 @@
+X00100
+Biały kolor powstaje z kolorów:
+Czerwony i niebieski 	 (RB)
+Żółty niebieski	     	 (YB)
+Niebieski czerwony żółty (RGB)
+Czarny i biały 
+Czerwony żółty       	 (RY)

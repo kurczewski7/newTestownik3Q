@@ -1,0 +1,7 @@
+X11000
+Sous quelle forme sont les tests ?
+Au format de fichiers texte dans un dossier
+Au format de fichier texte compressé ZIP
+Au format PDF
+Au format JPG
+Dans d'autres formats

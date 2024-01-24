@@ -1,0 +1,6 @@
+X0001
+Kiedy opisy transmitacyjny i za pomoc¹ równañ stanu s¹ równowa¿ne?
+zawsze
+gdy obiekt jest sterowalny
+gdy obiekt jest obserwowalny
+gdy obiekt jest zarówno sterowalny, jak i obserwowalny

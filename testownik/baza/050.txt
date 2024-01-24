@@ -1,0 +1,6 @@
+X1000
+Zadanie lokowania biegunow mozna rozwiazac 
+zarowno poprzez sprzezenie od stanu jak i wyjscia
+tylko poprzez sprzezenie zwrotne od wyjscia
+tylko poprzez sprzezenie zwrotne od stanu
+bez stosowania sprzezenia zwrotnego

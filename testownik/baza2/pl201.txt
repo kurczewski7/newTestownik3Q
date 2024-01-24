@@ -1,0 +1,6 @@
+X0010
+Kąt prosty wynosi:
+30 stopni
+180 stopni
+90 stopni
+60 stopni

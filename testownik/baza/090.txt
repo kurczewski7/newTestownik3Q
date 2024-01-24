@@ -1,0 +1,6 @@
+X0100
+Jaki jest zwi¹zek miêdzy funkcj¹ strat a ryzykiem?
+funkcja strat jest median¹ ryzyka
+ryzyko jest wartoœci¹ oczekiwan¹ funkcji strat
+ryzyko jest najwiêksz¹ wartoœci¹ funkcji strat
+funkcja strat i ryzyko to te same pojêcia

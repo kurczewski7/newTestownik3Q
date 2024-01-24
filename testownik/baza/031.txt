@@ -1,0 +1,6 @@
+X0100
+Ilu regulatorów u¿ywamy w standardowym algorytmie MFC
+1
+2
+3
+4

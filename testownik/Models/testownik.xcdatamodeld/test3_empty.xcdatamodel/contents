@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G90" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AllTestEntity" representedClassName="AllTestEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="auto_name" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="create_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="current_position" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="folder_url" optional="YES" attributeType="String"/>
+        <attribute name="group_size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="is_favorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nr_retesting" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nr_wrong_testing" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="part_size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="percent_repeat" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="repead_test" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="test_scope" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="user_description" optional="YES" attributeType="String"/>
+        <attribute name="user_name" optional="YES" attributeType="String"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="toCateoryRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoriesEntity" inverseName="toAllTestRelationship" inverseEntity="CategoriesEntity"/>
+        <relationship name="toDescriptionRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TestDescriptionEntity" inverseName="toAllTestRelationship" inverseEntity="TestDescriptionEntity"/>
+        <relationship name="toSelectedRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SelectedTestEntity" inverseName="toAllRelationship" inverseEntity="SelectedTestEntity"/>
+    </entity>
+    <entity name="CategoriesEntity" representedClassName="CategoriesEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="toAllTestRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AllTestEntity" inverseName="toCateoryRelationship" inverseEntity="AllTestEntity"/>
+    </entity>
+    <entity name="RatingsEntity" representedClassName="RatingsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="corrections_to_do" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="file_number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="good_answers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="last_answer" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="repetitions_to_do" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="uuid_parent" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="wrong_answers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SelectedTestEntity" representedClassName="SelectedTestEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="current_position" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="group_size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nr_retesting" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nr_wrong_testing" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="part_size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="percent_repeat" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reapead_test" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="test_scope" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="toAllRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AllTestEntity" inverseName="toSelectedRelationship" inverseEntity="AllTestEntity"/>
+    </entity>
+    <entity name="TestDescriptionEntity" representedClassName="TestDescriptionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="code_page" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="file_name" optional="YES" attributeType="String"/>
+        <attribute name="file_url" optional="YES" attributeType="String"/>
+        <attribute name="picture" optional="YES" attributeType="Binary"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="uuid_parent" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="toAllTestRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AllTestEntity" inverseName="toDescriptionRelationship" inverseEntity="AllTestEntity"/>
+    </entity>
+    <entity name="TestListEntity" representedClassName="TestListEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="done" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rating_index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="uuid_parent" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="TestToDoEntity" representedClassName="TestToDoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="checked" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="errorCorrect" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fileNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isExtraTest" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uuId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="uuid_parent" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>

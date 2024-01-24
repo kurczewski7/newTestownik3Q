@@ -1,0 +1,6 @@
+X1000
+Wyjœcie obiektu jest:
+a) splotem wejœcia oraz odpowiedzi impulsowej
+b) splotem uchybu oraz odp. impulsowej
+c) splotem wejœcia oraz odpowiedzi skokowej
+d) splotem odpowiedzi skokowej i impulsowej

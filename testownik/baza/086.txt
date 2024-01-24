@@ -1,0 +1,6 @@
+X0010
+Projekt regulatora liniowo-kwadratowego jest oparty o rozwi¹zanie równania
+Eulera-Lagrangea
+Kalmana
+Riccattiego
+Jacobiego

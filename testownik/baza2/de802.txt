@@ -1,0 +1,5 @@
+X010
+Wie wähle ich die richtige Antwort aus?
+Wählen Sie nichts aus
+Wählen Sie eine oder mehrere Optionen aus
+Wählen Sie Alle

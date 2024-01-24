@@ -1,0 +1,6 @@
+X0010
+Je¿eli A i B przynale¿¹ do to operator AND mo¿na przedstawiæ jako:
+ab
+a+b
+min(a,b)
+max(a,b)

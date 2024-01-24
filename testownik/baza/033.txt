@@ -1,0 +1,6 @@
+X0010
+W filtracji Kalmana dokonuje sie naprzemiennej
+identyfikacji i projekcji
+dekompozycji i koordynacji
+predykcji i korekcji
+fuzyfikacji i defuzyfikacji

@@ -1,0 +1,6 @@
+X1000
+Transformata z jest
+Zawsze Liniowa
+Zawsze nieliniowa
+Liniowa czasami
+Nieliniowa czasami

@@ -1,0 +1,6 @@
+X0001
+MFC wykorzystuje siê w systemach:
+stabilnych
+niestabilnych
+stacjonarnych (odpornych)
+niestacjonarnych

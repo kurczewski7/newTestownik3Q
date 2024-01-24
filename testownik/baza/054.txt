@@ -1,0 +1,6 @@
+X0010
+Regulator fuzzy jest regulatorem: 
+nieliniowym PI
+liniowym PID
+nieliniowym PD
+liniowym PI

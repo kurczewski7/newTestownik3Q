@@ -1,0 +1,6 @@
+X0100
+Identyfikowalność bloku w systemie złożonym zależy
+tylko od parametrów tego bloku
+od parametrów bloków go poprzedzających
+od parametrów bloków następujących po nim
+od wszystkich parametrów systemu złożonego

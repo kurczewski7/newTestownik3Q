@@ -1,0 +1,6 @@
+X1000
+Richard Bellman jest autorem metody:
+programowania dynamicznego
+programowania liniowo-kwadratowego
+programowania nieliniowego
+programowania wielopoziomowego

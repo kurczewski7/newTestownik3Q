@@ -1,0 +1,6 @@
+X0100
+Zastosowanie metod rachunku wariacyjnego w zadaniu sterowania optymalnego prowadzi do
+równania Hamiltona
+równania Eulera-Lagrangea
+równania Ricattiego
+równania Jacobiego-Bellmana

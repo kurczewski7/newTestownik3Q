@@ -1,0 +1,5 @@
+X0010
+Co oznacza ostatni wiersz w macierzy A w postaci Kanonicznej
+dudnienia rezonansowe
+miejsca zerowe mianownika
+wspó³czynniki wiel. char. macierzy A

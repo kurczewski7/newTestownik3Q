@@ -1,0 +1,6 @@
+X0010
+Metoda zmiennej wiodącej ma związek z
+algorytmami identyfikacji systemów
+regulacją rozmytą
+regulacją adaptacyjną
+optymalizacją decyzji w warunkach losowych

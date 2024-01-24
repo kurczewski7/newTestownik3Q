@@ -1,0 +1,6 @@
+X0100
+Jezeli w opisie za pomoca rownan stanu macierz A jest jednostkowa to
+obiekt jest stabilny
+obiekt nie jest stabilny
+obiekt jest sterowalny
+obiekt nie jest sterowalny

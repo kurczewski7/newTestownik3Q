@@ -1,0 +1,5 @@
+X1000
+Obiekt o transmitancji K(z) = z / z+1 opisuje równanie ró¿nicowe:
+y n + y n-1 = u n
+y n - y n-1 = u n
+y n = u n + u n-1

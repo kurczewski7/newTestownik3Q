@@ -1,0 +1,6 @@
+X0010
+regulator PID jest:
+liniowy
+nieliniowy
+liniowy, zale¿ny od nastaw
+nieliniowy zale¿ny od nastaw

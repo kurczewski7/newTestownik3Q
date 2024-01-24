@@ -1,0 +1,4 @@
+X01
+Zaznacz co testownik umożliwia?
+Tworzenie testów
+Sprawdzenie wiedzy

@@ -1,0 +1,6 @@
+X0001
+Rozwi¹zanie minimalne sprzecznego uk³adu równañ liniowych istnieje:
+gdy kryterium NK ma unikalne optimum
+gdy istnieje jego rozwi¹zanie sprzê¿one
+wtedy i tylko wtedy gdy liczba równañ jest wiêksza od liczby zmiennych
+zawsze

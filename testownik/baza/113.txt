@@ -1,0 +1,5 @@
+X010
+Wartosc funkcji w koncowym punkcie wedlug zasady Bellmana ma wartosc:
+1
+0
+inf

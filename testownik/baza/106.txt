@@ -1,0 +1,6 @@
+X0100
+Ktora wlasnosc cechuje macierz unitarną?
+sklada sie ona jedynie z zer i jedynek
+jej odwrotnosc jest rowna jej transpozycji
+jej wszystkie wartosci wlasne sa rowne 1
+jej slad jest rowny jej wymiarowi

@@ -1,0 +1,6 @@
+X0001
+Ile macierzy podobnych mo¿e istnieæ dla macierzy kwadratowej?
+0 lub 1
+0 lub nieskoñczenie wiele
+zawsze jedna
+zawsze nieskoñczenie wiele

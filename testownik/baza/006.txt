@@ -1,0 +1,6 @@
+X0001
+Które zdanie jest prawdziwe:
+Uk³ad sterowalny jest zawsze obserwowalny
+Uk³ad obserwowalny jest zawsze sterowalny
+Uk³ad sterowalny jest zawsze liniowy
+Ziemia jest oddalona od s³oñca bardziej w lipcu ni¿ w styczniu

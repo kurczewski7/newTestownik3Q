@@ -1,0 +1,7 @@
+X11000
+W jakiej formie są testy?
+W formacie zbiorów tekstowych w folderze
+W formacie zbiorów tekstowych skompresowanych ZIP
+W formacie PDF
+W formacie JPG
+W innych formatach

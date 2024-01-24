@@ -1,0 +1,6 @@
+X0100
+Zadanie lokowania biegunów okreœla siê w skrócie symbolami
+LL
+PP (pole positioning)
+BB
+TT

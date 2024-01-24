@@ -1,0 +1,6 @@
+X0001
+Jak nazywa sie metoda wykorzystujaca wartosci graniczne?
+min-max
+level-level
+tick-tock
+bang-bang

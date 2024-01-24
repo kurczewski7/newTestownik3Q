@@ -1,0 +1,6 @@
+X1000
+Wg zasady Pontryagina, sterowanie optymalne
+maksymalizujê funkcjê Hamiltona
+minimalizujê funkcjê Hamiltona
+maksymalizuje funkcjê Lagrangea
+minimalizuje funkcjê Lagrangea

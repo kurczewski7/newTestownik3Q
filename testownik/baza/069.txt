@@ -1,0 +1,6 @@
+X0010
+Uk³ady regulacji MFC s¹ dedykowane g³ównie dla:
+obiektów z czasem ci¹g³ym
+obiektów niestabilnych
+obiektów niestacjonarnych
+obiektów z histerez¹

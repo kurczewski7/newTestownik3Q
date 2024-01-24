@@ -1,0 +1,6 @@
+X1000
+Identyfikowalnosc obiektu w kaskadowym systemie zlozonym zalezy od parametrow
+blokow poprzedzajacych go
+blokow nastepujacych po nim
+tylko danego bloku
+wszystkich blokow systemu zlozonego

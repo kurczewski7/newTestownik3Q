@@ -1,0 +1,6 @@
+X1000
+Rownoœæ Parsevala okreœla zale¿noœæ pomiêdzy:
+ca³k¹ kwadratu sygna³u, a sum¹ kwadratów wspó³czynników jej rozwi¹zania
+energi¹ sygna³u wyjœciowego obiektu a elementami jej odpowiedzi [..]
+energi¹ sygna³u, a wartoœciami w³asnymi jego równania charakterystycznego
+wartoœciami sterowania optymalnego, a wartoœciami wektora stanu.

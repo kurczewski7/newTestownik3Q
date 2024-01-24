@@ -1,0 +1,6 @@
+X0100
+V=u’(t)+2 to system:
+Liniowy, dynamiczny, ci¹g³y
+Nielinowy, dynamiczny ci¹gly
+Liniowy, statyczny, ci¹g³y
+Liniowy, dynamiczny, dyskretny

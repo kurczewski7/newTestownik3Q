@@ -1,0 +1,6 @@
+X0010
+Zmodyfikowane zadanie optymalizacji pozwalaj¹ce na okreœlenie rozwi¹zania zadania g³ównego nazywa siê:
+zadaniem skojarzonym
+zadaniem spokrewnionym
+zadaniem zwi¹zanym
+zadaniem komplementarnym

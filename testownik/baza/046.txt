@@ -1,0 +1,6 @@
+X1000
+Do swobodnego kszta³towania charakterystyki rozmytego regulatora s³u¿y technika:
+look-up table
+ISOPE
+pole placement
+SVD

@@ -1,0 +1,6 @@
+X0010
+Optymalizacja dynamiczna ró¿ni siê od statycznej tym ¿e:
+dotyczy ona systemów dynamicznych
+funkcja kryterialna ma parametry zmienne w czasie
+optymalizuje siê w niej wartoœæ funkcjona³u, a nie funkcji
+zadanie zostanie zdekomponowane na dwie warstwy

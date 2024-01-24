@@ -1,0 +1,6 @@
+X1000
+Algorytm MFC stosuje siê dla:
+niestacjonarnych
+stacjonarnych
+liniowych
+statycznych 

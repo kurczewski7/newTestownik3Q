@@ -1,0 +1,8 @@
+X111110
+W jakich językach działa test?
+Angielski
+Niemiecki
+Francuski
+Polski
+Hiszpański
+Chińki

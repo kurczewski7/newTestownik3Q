@@ -1,0 +1,6 @@
+X0001
+W sterowaniu predykcyjnym wartosc horyzontu prognozy jest:
+taka sama jak horyzontu sterowania
+zerowa
+krotsza niz horyzontu sterowania
+dluzsza niz horyzontu sterowania

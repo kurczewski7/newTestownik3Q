@@ -1,0 +1,6 @@
+X1000
+Statystyka: X = Jednostajny(0,1), Y = Normalny(0,1)
+EX>EY varX<varY
+EX<EY varX>varY
+EX<EY varX<VarY
+EX>EY varX>varY

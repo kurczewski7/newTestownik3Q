@@ -1,0 +1,5 @@
+X010
+Wyjœcie UAR (uk³adu automatycznej regulacji) jest splotem:
+uchybu regulacji i odpowiedzi skokowej
+wejœcia i odpowiedzi impulsowej
+uchybu regulacji i odpowiedzi impulsowej

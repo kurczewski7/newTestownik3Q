@@ -1,0 +1,7 @@
+X11000
+What form are the tests in?
+In the format of text files in a folder
+In ZIP compressed text file format
+In PDF format
+In JPG format
+In other formats

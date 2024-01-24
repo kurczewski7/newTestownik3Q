@@ -1,0 +1,7 @@
+X00010
+W optymalizacji dwupoziomowej zmienne górnego poziomu to:
+zmienne wiod¹ce
+zmienne nadrzêdne
+zmienne bezpoœrednie
+zmienne koordynuj¹ce
+zmienne korekcyjne

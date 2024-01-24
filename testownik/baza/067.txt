@@ -1,0 +1,6 @@
+X0010
+Zmniejszenie wspó³czynnika lambda w œledzeniu parametru obiektu metod¹ wa¿onych NK powoduje:
+wzrost wariancji, wzrost obci¹¿enia
+spadek wariancji, spadek obci¹¿enia
+wzrost wariancji, spadek obci¹¿enia
+spadek wariancji, wzrost obci¹¿enia

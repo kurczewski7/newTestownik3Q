@@ -1,0 +1,6 @@
+X0100
+Uk³ad sterowania wielopoziomowy to inaczej:
+wielowarstwowy
+hierarchiczny
+nieliniowy
+adaptacyjny

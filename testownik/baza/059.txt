@@ -1,0 +1,6 @@
+X0001
+Obiekt opisany równaniem y(t) = u(t) + u'(t) jest:
+liniowy, statyczny, z czasem dyskretnym
+nieliniowy, dynamiczny, z czasem ci¹g³ym
+nieliniowy, statyczny, z czasem ci¹g³ym
+liniowy, dynamiczny, z czasem ci¹g³ym

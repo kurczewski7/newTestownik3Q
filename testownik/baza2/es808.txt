@@ -1,0 +1,5 @@
+X001
+Cuántas pruebas puede contener el programa?
+10
+100
+1000

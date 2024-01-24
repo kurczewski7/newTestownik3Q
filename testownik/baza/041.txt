@@ -1,0 +1,6 @@
+X0001
+Równanie które nale¿y rozwi¹zaæ przy sterowaniu adaptacyjnym to:
+równanie rekurencyjne
+równanie modalne
+równanie afiniczne
+równanie diofantyczne

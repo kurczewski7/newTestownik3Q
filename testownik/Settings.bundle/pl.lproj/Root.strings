@@ -1,0 +1,82 @@
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+"Group" = "Group xxxx";
+"Name" = "Name yyyy";
+"none given" = "none given zzzz";
+"Enabled" = "Enabled ffff 🇵🇱";
+
+"Version" = "Wersja 🇵🇱";
+"System language" = "Język systemu iOS";
+"Repeat options" = "Powtórzenia materiału";
+"Application language" = "Język aplikacji";
+"Repeat options" = "Opcje powtórek testu";
+"Listening (voice command)" = "Słuchanie (polecenia głosowe)";
+"Speaking (reading text)" = "Mówienie (czytanie tekstu)";
+"Speech range" = "Zakres mówienia";
+"Dark thema (shake iPhone)" = "Ciemny motyw (potrząśnij iPhonem)";
+"Charset code of text" = "Strona kodowa tekstu";
+"Repeating the test" = "Powtórzenia testu";
+"Reset to  default" = "Przywróć ustawienia domyślne";
+"Delete all tests    (Attention  !!!)" = "Usuń wszystkie testy (Uwaga !!!)";
+"The scope of the tests" = "Zakres testów";
+
+"Repeat mode" = "Tryb powtórzeń";
+"Repeat" = "Powtarzanie";
+"Dividing the test into parts" = "Podział testu na części";
+
+
+"No split" = "Brak podziału";
+"Groups of 10 questions"  = "Grupy po 10 pytań";
+"Groups of 30 questions"  = "Grupy po 30 pytań";
+"Groups of 100 questions" = "Grupy po 100 pytań";
+"Groups of 300 questions" = "Grupy po 300 pytań";
+"Groups of 900 questions" = "Grupy po 900 pytań";
+
+"Repetition Percentage" = "Procent powtórzeń";
+
+"5 % of all"  = "5 % wszystkich";
+"10 % of all" = "10 % wszystkich";
+"15 % of all" = "15 % wszystkich";
+"20 % of all" = "20 % wszystkich";
+"25 % of all" = "25 % wszystkich";
+"30 % of all" = "30 % wszystkich";
+
+"Number of test repetitions" = "Liczba powtórzeń testu";
+"No repetitions" = "Brak powtórzeń";
+"Number of repetitions after wrong answer" = "Liczba powtórzeń po błędnej odpowiedzi";
+"No repetitions after error" = "Brak powtórzeń po błędzie";
+
+
+/*
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+*/
+
+
+

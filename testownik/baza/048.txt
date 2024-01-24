@@ -1,0 +1,6 @@
+X0010
+Do przyblizonej analizy ukladow nieliniowych stosuje sie metode:
+dekompozycji SVD
+kar i cen
+funkcji opisujacej
+Jacoby'ego

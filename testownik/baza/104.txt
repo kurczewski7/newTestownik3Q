@@ -1,0 +1,6 @@
+X0100
+Rozwiazanie rownania Eulera-Lagrange'a jest dla istnienia minimum funkcji kosztow...
+warunkiem koniecznym i wystarczajacym
+warunkiem koniecznym, ale niewystarczajacym
+warunkiem niekoniecznym, ale wystarczajacym
+warunkiem niekoniecznym i niewystarczajacym

@@ -1,0 +1,6 @@
+X0010
+Typowy regulator rozmyty ma strukturê nieliniowego regulatora typu:
+P
+PI
+PD
+PID

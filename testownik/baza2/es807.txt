@@ -1,0 +1,5 @@
+X110
+Qué páginas de códigos de caracteres admite?
+UTF8
+Ventanas 1250
+ISO9

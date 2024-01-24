@@ -1,0 +1,6 @@
+X1000
+Jaka operacja mo¿e pos³u¿yæ jako operator koniunkcji (AND) w logice rozmytej? [??]
+minimum 
+maksimum
+uœrednienie
+iloczyn

@@ -1,0 +1,5 @@
+X110
+Welche Zeichencodeseiten werden unterstützt?
+UTF8
+Windows 1250
+ISO9

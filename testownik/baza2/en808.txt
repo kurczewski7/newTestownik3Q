@@ -1,0 +1,5 @@
+X001
+How many tests can the program hold?
+10
+100
+1000

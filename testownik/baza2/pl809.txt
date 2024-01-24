@@ -1,0 +1,5 @@
+X001
+Ile pytań może zawierać test?
+100
+1000
+10000

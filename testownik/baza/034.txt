@@ -1,0 +1,6 @@
+X0100
+Który termin jest zwi¹zany z identyfikacj¹ dla potrzeb sterowania adaptacyjnego:
+model following control
+weighted lesast squares
+look up table
+fuzzy control

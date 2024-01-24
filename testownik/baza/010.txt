@@ -1,0 +1,6 @@
+X1000
+Ile razy odwracana jest macierz w rekurencyjnym algorytmie NK?
+ani razu
+tylko raz (inicjacja)
+dwa razy (inicjacja i końcowa estymacja)
+tyle razy ile wynosi liczba pomiarów

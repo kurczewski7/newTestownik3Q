@@ -1,0 +1,8 @@
+X100000
+Do optymalizacji wielopoziomowej wykorzystuje sie metode
+dekompozycji i koordynacji 
+predykcji i korekcji
+identyfikacji i optymalizacji
+MNK
+agregacji i kompozycji
+dekonwolucji i przewidywania

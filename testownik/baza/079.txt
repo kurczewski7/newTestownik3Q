@@ -1,0 +1,7 @@
+X01000
+W postaci kanonicznej, w ostatnim wierszu macierzy przejœcia wystêpuj¹
+wartoœci w³asne ten macierzy
+wspó³czynniki wielomianu charakterystycznego 
+wartoœci wielomianu charakterystycznego 
+wartoœci wystêpuj¹ce w warunku pocz¹tkowym
+wartoœci szczególne rozk³adu SVD

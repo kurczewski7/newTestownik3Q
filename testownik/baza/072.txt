@@ -1,0 +1,6 @@
+X1000
+Metody Zieglera-Nicolsa s³u¿¹ do:
+strojenia regulatora PID
+estymacji wektora stanu
+identyfikacji parametrów obiektu dynamicznego
+przybli¿onej analizy obiektów nieliniowych

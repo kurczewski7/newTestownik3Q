@@ -1,0 +1,6 @@
+X0010
+Wyjœcie impulsatora z ekstrapolatorem to:
+ci¹g delt Diraca
+sygna³ impulsowy
+funkcja odcinkami sta³a
+delta Kroneckera

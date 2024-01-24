@@ -1,0 +1,5 @@
+X001
+Obserwowalnoœæ zale¿y od macierzy:
+A i B
+B i C
+A i C

@@ -1,0 +1,6 @@
+X0010
+Która technika ma na celu sprowadzenie zadania optymalizacji z ograniczeniami do zada[....] bez ograniczeñ?
+symulowane wy¿arzanie
+metoda genetyczna
+mno¿niki Lagrangea
+rozk³ad SVD

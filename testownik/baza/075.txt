@@ -1,0 +1,6 @@
+X0100
+Jaka operacja mo¿e pos³u¿yæ jako operator alternatywny (OR) w logice rozmytej?
+minimum 
+maksimum
+uœrednienie
+iloczyn

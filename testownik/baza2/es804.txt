@@ -1,0 +1,7 @@
+X11000
+De qué forma son las pruebas?
+En el formato de archivos de texto en una carpeta
+En formato de archivo de texto comprimido ZIP
+En formato PDF
+En formato JPG
+En otros formatos

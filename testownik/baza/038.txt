@@ -1,0 +1,6 @@
+X1000
+1/(s^2+1)^2 jak odpowie
+oscylacje, nieograniczone
+brak oscylacji, nieograniczony
+oscylacje, ograniczony
+brak oscylacji, ograniczony

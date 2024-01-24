@@ -1,0 +1,6 @@
+X0100
+Niech rozk³¹d SVD macierzy A ma postaæ A=PDQ'. Macierze P i Q s¹:
+trójk¹tne
+unitarne
+diagonalne
+nieosobliwe

@@ -1,0 +1,6 @@
+X0100
+Która z technik optymalizacji daje szansê na ucieczkê z optimum lokalnego:
+metoda gradientowa
+symulowanie wy¿arzanie
+metoda mno¿ników Lagrangea
+metoda Zieglera-Nicolsa

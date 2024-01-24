@@ -1,0 +1,6 @@
+X1000
+KLASYCZNY regulator PID jest:
+liniowy
+nielinowy
+liniowy lub nieliniowy, zale¿ny od nastaw
+nieliniowy zale¿ny od nastaw

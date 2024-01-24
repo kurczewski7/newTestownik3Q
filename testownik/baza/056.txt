@@ -1,0 +1,6 @@
+X1000
+O stabilnosci systemu liniowego decyduje
+postac rownan stanu
+postac rownan wyjscia
+warunki poczatkowe
+prof Mzyk

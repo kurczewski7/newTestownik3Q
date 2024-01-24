@@ -1,0 +1,5 @@
+X100
+Aus welcher Quelle kann der Test bezogen werden?
+Von der Webseite des Internets
+Von Freunden
+Im Laden

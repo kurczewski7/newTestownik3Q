@@ -1,0 +1,6 @@
+X1000
+Ilosc parametrow w metodzie parametrycznej:
+znana i skonczona
+nieznana, skonczona
+znana, nieskonczona
+nieznana, nieskonczona

@@ -1,0 +1,126 @@
+
+/* Class = "UITextField"; text = "userNameFieldtext"; ObjectID = "04Q-74-T6Q"; */
+"04Q-74-T6Q.text" = "userNameFieldtext";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "39w-9S-nWE"; */
+"39w-9S-nWE.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 4"; ObjectID = "4Lf-Ox-pmN"; */
+"4Lf-Ox-pmN.normalTitle" = "Pytanie 4";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "5y7-8n-yxz"; */
+"5y7-8n-yxz.title" = "Item";
+
+/* Class = "UILabel"; text = "Automatic label"; ObjectID = "7FA-IX-TWw"; */
+"7FA-IX-TWw.text" = "Automatic label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7ud-NW-SiB"; */
+"7ud-NW-SiB.text" = "Label";
+
+/* Class = "UILabel"; text = "folderUrl"; ObjectID = "7yd-aI-4SP"; */
+"7yd-aI-4SP.text" = "folderUrl";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 1"; ObjectID = "8lw-GS-xyB"; */
+"8lw-GS-xyB.normalTitle" = "Pytanie 1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8oV-Sf-zhs"; */
+"8oV-Sf-zhs.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "9xv-Z6-pm3"; */
+"9xv-Z6-pm3.title" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "A7e-RI-blr"; */
+"A7e-RI-blr.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 8"; ObjectID = "BCV-aq-hgv"; */
+"BCV-aq-hgv.normalTitle" = "Pytanie 8";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "D04-lb-JKL"; */
+"D04-lb-JKL.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Your tests"; ObjectID = "Dgu-SD-Ttz"; */
+"Dgu-SD-Ttz.title" = "Your tests";
+
+/* Class = "UINavigationItem"; title = "Testownik"; ObjectID = "Ey0-Y1-Rkw"; */
+"Ey0-Y1-Rkw.title" = "Testownik";
+
+/* Class = "UIButton"; normalTitle = " Next "; ObjectID = "H33-pg-Q0g"; */
+"H33-pg-Q0g.normalTitle" = " Next ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Iel-W2-gUz"; */
+"Iel-W2-gUz.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 2"; ObjectID = "J2d-P7-3n7"; */
+"J2d-P7-3n7.normalTitle" = "Pytanie 2";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 6"; ObjectID = "Npv-Sv-AUR"; */
+"Npv-Sv-AUR.normalTitle" = "Pytanie 6";
+
+/* Class = "UITextField"; placeholder = "Insert your test name"; ObjectID = "QDS-zz-JdZ"; */
+"QDS-zz-JdZ.placeholder" = "Insert your test name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SfE-VZ-3tE"; */
+"SfE-VZ-3tE.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = " Previus "; ObjectID = "VRi-jC-cBp"; */
+"VRi-jC-cBp.normalTitle" = " Previus ";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 5"; ObjectID = "VZi-8t-eM6"; */
+"VZi-8t-eM6.normalTitle" = "Pytanie 5";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VkX-ix-mRC"; */
+"VkX-ix-mRC.text" = "Label";
+
+/* Class = "UILabel"; text = "categoryLabel"; ObjectID = "WfG-sy-bPB"; */
+"WfG-sy-bPB.text" = "categoryLabel";
+
+/* Class = "UINavigationItem"; title = "Clouds"; ObjectID = "co3-5o-Xwc"; */
+"co3-5o-Xwc.title" = "Clouds";
+
+/* Class = "UINavigationItem"; title = "Add test"; ObjectID = "cqh-6e-sUl"; */
+"cqh-6e-sUl.title" = "Add test";
+
+/* Class = "UIButton"; normalTitle = " First "; ObjectID = "czF-Us-4Vk"; */
+"czF-Us-4Vk.normalTitle" = " First ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ffP-6U-hqB"; */
+"ffP-6U-hqB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fk8-fL-QMh"; */
+"fk8-fL-QMh.text" = "Label";
+
+/* Class = "UILabel"; text = "Select your test to start"; ObjectID = "gRo-bW-ZXz"; */
+"gRo-bW-ZXz.text" = "Select your test to start";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hRR-iU-tpy"; */
+"hRR-iU-tpy.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 7"; ObjectID = "hiL-wI-wRa"; */
+"hiL-wI-wRa.normalTitle" = "Pytanie 7";
+
+/* Class = "UITextField"; placeholder = "Enter your description"; ObjectID = "imq-Pa-4VO"; */
+"imq-Pa-4VO.placeholder" = "Enter your description";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ks6-E2-aaK"; */
+"ks6-E2-aaK.title" = "Item";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."; ObjectID = "l0a-Ev-g51"; */
+"l0a-Ev-g51.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+/* Class = "UITextField"; text = "userDescriptionTextField"; ObjectID = "ljy-NC-K36"; */
+"ljy-NC-K36.text" = "userDescriptionTextField";
+
+/* Class = "UILabel"; text = "autoNameLabel"; ObjectID = "oTB-0d-hbK"; */
+"oTB-0d-hbK.text" = "autoNameLabel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sfn-ST-24k"; */
+"sfn-ST-24k.text" = "Label";
+
+/* Class = "UILabel"; text = "You don't have selected test. Add new test in search option."; ObjectID = "tFz-9g-NIy"; */
+"tFz-9g-NIy.text" = "You don't have selected test. Add new test in search option.";
+
+/* Class = "UINavigationItem"; title = "Test description"; ObjectID = "xj9-9i-wjx"; */
+"xj9-9i-wjx.title" = "Test description";
+
+/* Class = "UIButton"; normalTitle = "Pytanie 3"; ObjectID = "zAH-uf-Asq"; */
+"zAH-uf-Asq.normalTitle" = "Pytanie 3";

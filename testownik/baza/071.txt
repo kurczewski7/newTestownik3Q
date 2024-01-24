@@ -1,0 +1,6 @@
+X1000
+Optymaln¹ decyzj¹ przy kwadratowej funkcji strat jest:
+wartoœæ oczekiwana
+wariancja
+mediana
+wartoœæ najbardziej prawdopodobna

@@ -1,0 +1,6 @@
+X0100
+Przesuwanie biegunów polega na
+dodanie elementu całkującego i różniczkującego w obiekcie
+dodaniu pętli sprzężenia zwrotnego
+zastosowaniu odpowiedniego sygnału wejściowego
+zastosowaniu odpowiedniego sygnału wyjściowego

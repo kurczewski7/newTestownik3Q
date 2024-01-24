@@ -1,0 +1,6 @@
+X0100
+Filtr Kalmana s³u¿y do:
+strojenia regulatora PID
+estymacji wektora stanu
+identyfikacji parametrów obiektu dynamicznego
+przybli¿onej analizy obiektów nieliniowyc

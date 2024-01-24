@@ -1,0 +1,6 @@
+X1000
+Funkcja skoku jednostkowego 1(t) jest:
+Nieci¹g³a z czasem ci¹g³ym
+Ci¹gla z czasem nieci¹g³ym
+Ci¹g³a z czasem ci¹g³ym
+Nieci¹g³a z czasem nieci¹g³ym

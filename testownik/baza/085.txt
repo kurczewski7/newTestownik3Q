@@ -1,0 +1,6 @@
+X0001
+O optymalnoœci koñcówki trajektorii optymalne mówi:
+zasada Pontryagina
+zasada mno¿ników Lagrangea
+zasada Zieglera-Nicolsa
+zasada Bellmana

@@ -1,0 +1,5 @@
+X001
+Wie viele Tests kann das Programm enthalten?
+10
+100
+1000

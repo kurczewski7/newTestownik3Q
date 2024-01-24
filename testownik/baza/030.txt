@@ -1,0 +1,6 @@
+X1000
+W regulatorze PID, poszczególne cz³ony odpowiadaj¹ za:
+P-proporcjonalny, I-ca³kuj¹cy, D-ró¿niczkuj¹cy
+P- proporcjonalny, I- ró¿niczkuj¹cy, D- ca³kuj¹cy
+P-proporcjonalny, I- opóŸniaj¹cy, D- ca³kuj¹cy
+P- opóŸniaj¹cy, I- ca³kuj¹cy, D- ró¿niczkuj¹cy

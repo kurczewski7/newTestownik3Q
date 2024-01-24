@@ -1,0 +1,6 @@
+X0100
+Obiekt opisany rownaniem y(t) = u(t) + 1 jest
+liniowy, dynamiczny, z czasem ciaglym
+nieliniowy, statyczny, z czasem ciaglym
+nieliniowy, dynamiczny, z czasem ciaglym
+liniowy, statyczny, z czasem dyskretnym

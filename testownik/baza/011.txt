@@ -1,0 +1,6 @@
+X0001
+Uklad o biegunach s = 1+i , s = 1 – i jest:
+Stabilny bez oscylacji
+Niestabilny bez oscylacji
+Stabilny z oscylacjami
+Niestabilny z oscylacjami

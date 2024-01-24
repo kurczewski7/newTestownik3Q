@@ -1,0 +1,6 @@
+X0100
+Przy wielomiane zadaj¹cym stopnia r=3 i dwóch (h=2) biegunach w uk³adzie otwartym, stabilny uk³ad regulacji jest:
+nad¹¿ny
+nienad¹¿ny
+na granicy nad¹¿noœci
+nad¹¿ny, lub nienad¹¿ny w zale¿noœci od wspó³czynników wielomianu zadaj¹cego

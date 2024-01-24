@@ -1,0 +1,6 @@
+X1000
+Zasada Bellmana mówi o:
+optymalnoœci koñcówki trajektorii optymalnej 
+stabilnoœci obiektów o dodatnim sprzê¿eniu zwrotnym
+obserwowalnoœci obiektów stacjonarnych
+sterowalnoœci obiektów niestabilnych

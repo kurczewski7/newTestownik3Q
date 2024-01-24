@@ -1,0 +1,6 @@
+X1000
+Zmienne instrumentalne powinny byæ skorelowane:
+tylko z wejœciami
+tylko zak³óceniami
+zarówno z wejœciami, jak i zak³óceniami
+ze zmiennymi pomocniczymi

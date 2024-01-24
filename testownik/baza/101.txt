@@ -1,0 +1,6 @@
+X0010
+W sk³ad b³êdu œredniokwadratowego MSE wchodz¹:
+Wariancja i obci¹¿enie
+kwadrat wariancji i obci¹¿enie
+wariancja i kwadrat obci¹¿enia
+kwadrat wariancji i kwadrat obci¹¿enia
