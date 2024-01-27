@@ -202,7 +202,7 @@ extension Array  {
 //            return self
 //        }
         guard let key = aKey else { return self }
-        guard key.isEmpty else { return self }        
+        guard key.isNotEmpty() else { return self }        
         let len = Swift.min(self.count, key.count)
          // [1, 2, 0]
         for i in 0..<len {

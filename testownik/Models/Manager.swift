@@ -307,13 +307,23 @@ class Manager: ManagerDataSource  {
         let fileNumber = test.fileNumber
         if testList.isInRange(fileNumber) {
             let options = testList[fileNumber].answerOptions
-            let keySort = testList[fileNumber].answerOptions.createSortKey()
+            let keySort = options.createSortKey()
+            let sortOption = options.sortArray(forUserKey: keySort)
+            let isOkArray = sortOption.map({$0.isOK})
+            let shortAnswer = AnswerShort(isOK: false, lastYourCheck: false)
+            var aArr = [AnswerShort](repeating: shortAnswer, count: keySort.count)
+
+            for i in 0..<aArr.count {
+                aArr[i].isOK = isOkArray[i]
+            }
 
             if keySort.isNotEmpty() {
                 test.keySort = keySort
+                test.answerOptions = aArr
             }
-            let shortAnswer = AnswerShort(isOK: false, lastYourCheck: false)
-            let aArr = [AnswerShort](repeating: shortAnswer, count: keySort.count)
+            for i in 0..<aArr.count {
+                aArr[i].isOK = isOkArray[i]
+            }
             test.answerOptions.append(contentsOf: aArr)
         }
     }
