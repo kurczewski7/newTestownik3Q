@@ -96,7 +96,12 @@ class Manager: ManagerDataSource  {
     }
     struct AnswerShort {
             var isOK: Bool
+            // MARK: only temporary
+        var answerOption: String = ""
             var lastYourCheck: Bool = false
+
+//        let answerOption: String
+
     }
     struct TestHistoryData {
         let fileNumber: Int
@@ -310,21 +315,20 @@ class Manager: ManagerDataSource  {
             let keySort = options.createSortKey()
             let sortOption = options.sortArray(forUserKey: keySort)
             let isOkArray = sortOption.map({$0.isOK})
+            let titleArray = sortOption.map({$0.answerOption})
             let shortAnswer = AnswerShort(isOK: false, lastYourCheck: false)
-            var aArr = [AnswerShort](repeating: shortAnswer, count: keySort.count)
+            var arrAnsw = [AnswerShort](repeating: shortAnswer, count: keySort.count)
 
-            for i in 0..<aArr.count {
-                aArr[i].isOK = isOkArray[i]
+            for i in 0..<arrAnsw.count {
+                arrAnsw[i].isOK = isOkArray[i]
+                arrAnsw[i].answerOption = titleArray[i]                
             }
 
             if keySort.isNotEmpty() {
                 test.keySort = keySort
-                test.answerOptions = aArr
+                test.answerOptions.append(contentsOf: arrAnsw)
+                //test.answerOptions = aArr
             }
-            for i in 0..<aArr.count {
-                aArr[i].isOK = isOkArray[i]
-            }
-            test.answerOptions.append(contentsOf: aArr)
         }
     }
     fileprivate func addNext() -> Int {

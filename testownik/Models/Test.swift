@@ -9,7 +9,7 @@
 import UIKit
 
 struct Test {
-    let fileNumber: Int = 0
+    let fileNumber: Int  //= 0
     let code: String?
     let ask: String?
     let pict: UIImage?

@@ -203,7 +203,7 @@ class Testownik: DataOperations, TestownikDataSource {
         print("database.testDescriptionTable.count fillDataDb:\(database.testDescriptionTable.count)")
         print("testownik.count befor:\(self.count)")
         self.testList.removeAll()
-        
+        var fileNumber = 0
         database.testDescriptionTable.forEach { (index, testRecord) in
             if let txt = testRecord?.text, !txt.isEmpty {
                 titles.removeAll()
@@ -221,7 +221,8 @@ class Testownik: DataOperations, TestownikDataSource {
                 if let pictData = testRecord?.picture {
                     pict = UIImage(data: pictData)
                 }
-                let test = Test(code: textLines[0], ask: textLines[1], pict: pict, answerOptions: sortedAnswerOptions, youAnswers5: [], fileName: fileName)
+                let test = Test(fileNumber: fileNumber, code: textLines[0], ask: textLines[1], pict: pict, answerOptions: sortedAnswerOptions, youAnswers5: [], fileName: fileName)
+                fileNumber += 1
                 self.testList.append(test)
             }
         }

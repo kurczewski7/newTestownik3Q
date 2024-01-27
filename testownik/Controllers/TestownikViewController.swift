@@ -112,12 +112,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         if testownik.filePosition != .first  {       testownik.previous()  }
     }
     @IBAction func checkButtonPress(_ sender: UIButton) {
-        guard let currTest = testownik[testownik.currentTestNumber] else {    return        }
-        let countTest = currTest.answerOptions.count        //okAnswers.count
+        //guard let currTest = testownik[testownik.currentTestNumber] else {    return        }
+        guard let answerOptions = testownik.manager?.currentHistory?.answerOptions else { return }
+        let countTest = answerOptions.count        //okAnswers.count
         for i in 0..<countTest {
             if let button = stackView.arrangedSubviews[i] as? UIButton {
-                button.layer.borderWidth =  currTest.answerOptions[i].isOK ? 3 : 1
-                button.layer.borderColor = currTest.answerOptions[i].isOK ? UIColor.systemGreen.cgColor : UIColor.brown.cgColor
+                button.layer.borderWidth = answerOptions[i].isOK ? 3 : 1
+                button.layer.borderColor = answerOptions[i].isOK ? UIColor.systemGreen.cgColor : UIColor.brown.cgColor
             }
         }
     }
