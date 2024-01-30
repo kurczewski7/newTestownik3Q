@@ -762,7 +762,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         for curButt in stackView.arrangedSubviews     {
             if let aTest = test, let butt = curButt as? UIButton {
                 butt.isHidden =  false
-                markSelected(forButton: butt, optionNr: i)
+                butt.layer.backgroundColor =  unSelectedColor.cgColor
                 butt.setTitle("\(Setup.placeHolderButtons) \(i)", for: .normal)
                 i += 1
             }
@@ -779,14 +779,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         
         var i = 0
         let image = UIImage(named: "002.png")
-        let set = Set([6,8,9])
+        let graphical = false
         let txtFile = aTest.fileName
         
         self.title = "Test \(txtFile)"
         // TODO: check it
-        aTest.youAnswer2.removeAll()
-        let totalQuest = aTest.answerOptions.count
-        aTest.youAnswers5.removeAll()
+        //aTest.youAnswer2.removeAll()
+        let totalQuest = options.count
+        //aTest.youAnswers5.removeAll()
         askLabel.text = aTest.ask
         
         if  let currPict = aTest.pict {
@@ -801,14 +801,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 butt.contentHorizontalAlignment =  (Setup.isNumericQuestions ? .left : .center)
                 butt.isHidden = (i < totalQuest) ? false : true
                 guard testownik.isCurrentValid else {   return     }
-                butt.setTitle((i < totalQuest) ? Setup.getNumericPict(number: i) + aTest.answerOptions[i].answerOption : "", for: .normal)
+                butt.setTitle((i < totalQuest) ? Setup.getNumericPict(number: i) + options[i].answerOption : "", for: .normal)
                 butt.layer.borderWidth = 1
                 butt.layer.borderColor = UIColor.brown.cgColor
-                let isSelect = aTest.youAnswer2.contains(i) 
-                butt.layer.backgroundColor = isSelect ? selectedColor.cgColor: unSelectedColor.cgColor
                 markSelected(forButton: butt, optionNr: i)
-                // MARK: ggggg ffffff
-                if set.contains(i)  {
+                // MARK: For graphical questions
+                if graphical  {
                     butt.setTitle(" \(i+1)", for: .normal)
                     butt.setImage(image, for: .normal)
                     butt.contentHorizontalAlignment = Setup.currentAligmentButton
