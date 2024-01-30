@@ -123,6 +123,7 @@ class Manager: ManagerDataSource  {
     var groupSize = 0
     var finishedAdd = true
     let isSortDisplay = true
+    var checkedStatus = false
     
     var testList : [Test] = [Test]()
     var allTestPull: TestDataArr = TestDataArr()

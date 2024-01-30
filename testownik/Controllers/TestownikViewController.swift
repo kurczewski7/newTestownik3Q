@@ -114,13 +114,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     @IBAction func checkButtonPress(_ sender: UIButton) {
         //guard let currTest = testownik[testownik.currentTestNumber] else {    return        }
         guard let answerOptions = testownik.manager?.currentHistory?.answerOptions else { return }
+        guard let checkStatus = testownik.manager?.checkedStatus else { return }
         let countTest = answerOptions.count        //okAnswers.count
         for i in 0..<countTest {
             if let button = stackView.arrangedSubviews[i] as? UIButton {
-                button.layer.borderWidth = answerOptions[i].isOK ? 3 : 1
-                button.layer.borderColor = answerOptions[i].isOK ? UIColor.systemGreen.cgColor : UIColor.brown.cgColor
+                let isCheck = answerOptions[i].isOK && !checkStatus
+                button.layer.borderWidth = isCheck  ? 3 : 1
+                button.layer.borderColor = isCheck ? UIColor.systemGreen.cgColor : UIColor.brown.cgColor
             }
         }
+        testownik.manager?.checkedStatus.toggle()
     }
     
     // MARK: viewDidLoad - initial method
