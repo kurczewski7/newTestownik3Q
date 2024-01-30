@@ -168,6 +168,14 @@ class Manager: ManagerDataSource  {
         }
     }
     //var tmpTest: Test?
+    var currentOptions: [AnswerShort]  {
+        
+        get { 
+            guard historycalTest.isInRange(currentPosition) else { return [AnswerShort]() }
+            return historycalTest[currentPosition].answerOptions
+        }
+        
+    }
     var currentTest: Test? {
         willSet {
                 setCurrenTest(forNewValue: newValue)

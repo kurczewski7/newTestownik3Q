@@ -54,6 +54,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             }
         }
     }
+    var options: [Manager.AnswerShort] {
+        get {
+            return testownik.manager?.currentOptions ?? [Manager.AnswerShort]()
+        }
+    }
     var test: Test? {
         get {
             return testownik.manager?.currentTest
