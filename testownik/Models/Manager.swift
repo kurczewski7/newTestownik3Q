@@ -143,6 +143,7 @@ class Manager: ManagerDataSource  {
     var fileNumber: Int = -1 {
         didSet {
             if fileNumber != oldValue {
+                print("Olf fileNumer: \(oldValue), new \(fileNumber)  ")
                 delegate?.refreshView()
             }
         }
