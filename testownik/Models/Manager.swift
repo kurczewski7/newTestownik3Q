@@ -228,7 +228,7 @@ class Manager: ManagerDataSource  {
         }
         if let options = test?.answerOptions {
             print("\(options)")
-            if let sortKey = currentHistory?.keySort,  test != nil {  //options.createSortKey()
+            if let sortKey = currentHistory?.keySort,  test != nil {
                 var sortOptions = options.sortArray(forUserKey: sortKey)
                 setOptionsParam(&sortOptions)
                 test!.answerOptions = sortOptions
@@ -245,9 +245,6 @@ class Manager: ManagerDataSource  {
                 return
             }
             var options = test.answerOptions
-//            options[1].lastYourCheck = true  //aTest.answerOptions[0].lastYourCheck = true
-//            options[1].lastYourCheck = true
-//            options[0].lastYourCheck = true
             if historycalTest.isInRange(currentPosition) {
                 var curTmp =  historycalTest[currentPosition]
                 if curTmp.keySort.isEmpty {
