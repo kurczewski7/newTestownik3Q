@@ -280,6 +280,10 @@ class Manager: ManagerDataSource  {
         historycalTest[currentPosition].isCorect = isCorect
         historycalTest[currentPosition].oneWasSelected = oneWasSelected            
     }
+    func getOptions() -> [AnswerShort] {
+        guard let options = currentHistory?.answerOptions else { return [AnswerShort]() }
+        return options
+    }
     func getSelectedOption(forOptionNumber number: Int) -> AnswerShort? {
         guard let options = currentHistory?.answerOptions, options.isInRange(number) else { return nil }
         return options[number]        

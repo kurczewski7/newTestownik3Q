@@ -54,11 +54,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             }
         }
     }
-    var options: [Manager.AnswerShort] {
-        get {
-            return testownik.manager?.currentOptions ?? [Manager.AnswerShort]()
-        }
-    }
     var test: Test? {
         get {
             return testownik.manager?.currentTest
@@ -769,32 +764,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         }
     }
     func refreshView() {
-//        test?.answerOptions[0].lastYourCheck
-//        test?.answerOptions[1].isOK
-        guard var aTest = test else { return }
-        //aTest.answerOptions[0].lastYourCheck = true
         print("COUNT:: \(testownik.manager?.testList.count)")
         print("refreshView")
         print("__ refreshView:\(testownik.currentTestNumber)")
         
         var i = 0
-        let image = UIImage(named: "002.png")
         let graphical = false
-        let txtFile = aTest.fileName
-        
-        self.title = "Test \(txtFile)"
-        // TODO: check it
-        //aTest.youAnswer2.removeAll()
-        let totalQuest = options.count
-        //aTest.youAnswers5.removeAll()
+        pictureSwitchOn = false
+        let image = UIImage(named: "002.png")
+        guard var aTest = test else { return }
+        guard let options = testownik.manager?.getOptions() else { return }
+        self.title = "Test \(aTest.fileName)"
         askLabel.text = aTest.ask
-        
+        let totalQuest = options.count
         if  let currPict = aTest.pict {
             askPicture.image = currPict
             pictureSwitchOn = true
-        }
-        else {
-            pictureSwitchOn = false
         }
         for curButt in stackView.arrangedSubviews     {
             if let butt = curButt as? UIButton {
