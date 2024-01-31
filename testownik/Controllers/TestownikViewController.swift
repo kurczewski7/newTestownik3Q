@@ -786,8 +786,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         }
         for curButt in stackView.arrangedSubviews     {
             if let butt = curButt as? UIButton {
-                butt.contentHorizontalAlignment =  (Setup.isNumericQuestions ? .left : .center)
                 butt.isHidden = (i < totalQuest) ? false : true
+                if (i >= totalQuest) {
+                    continue
+                }
+                butt.contentHorizontalAlignment =  (Setup.isNumericQuestions ? .left : .center)
                 guard testownik.isCurrentValid else {   return     }
                 butt.setTitle((i < totalQuest) ? Setup.getNumericPict(number: i) + options[i].answerOption : "", for: .normal)
                 butt.layer.borderWidth = 1
