@@ -147,6 +147,7 @@ class Manager: ManagerDataSource  {
                 print("Olf fileNumer: \(oldValue), new \(fileNumber)  ")
                 delegate?.refreshView()
             }
+            else { print("THE SAME FILE NUMBER: \(fileNumber)")}
         }
     }
     var currentPosition: Int = -1 {
