@@ -144,7 +144,7 @@ class Manager: ManagerDataSource  {
     var fileNumber: Int = -1 {
         didSet {
             if fileNumber != oldValue {
-                print("Olf fileNumer: \(oldValue), new \(fileNumber)  ")
+                print("Old fileNumer: \(oldValue), new \(fileNumber)  ")
                 delegate?.refreshView()
             }
             else { print("THE SAME FILE NUMBER: \(fileNumber)")}
@@ -230,12 +230,12 @@ class Manager: ManagerDataSource  {
             return test
         }
         if let options = test?.answerOptions {
-            print("\(options)")
+//            print("\(options)")
             if let sortKey = currentHistory?.keySort,  test != nil {
                 var sortOptions = options.sortArray(forUserKey: sortKey)
                 setOptionsParam(&sortOptions)
                 test!.answerOptions = sortOptions
-                print("\(sortOptions)")
+//                print("\(sortOptions)")
             }
         }
         return test

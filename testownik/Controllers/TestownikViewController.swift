@@ -505,7 +505,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 //                hideButton(forButtonNumber: i)
 //            }
 //        }
-        refreshView()
+        
+    // MARK: deprecjated    refreshView()
     }
 
     // MARK: ListeningDelegate method
@@ -778,6 +779,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         guard var aTest = test else { return }
         guard let options = testownik.manager?.getOptions() else { return }
         self.title = "Test \(aTest.fileName)"
+        print("TITLE:  \(aTest.ask)")
         askLabel.text = aTest.ask
         let totalQuest = options.count
         if  let currPict = aTest.pict {
@@ -793,6 +795,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                 butt.contentHorizontalAlignment =  (Setup.isNumericQuestions ? .left : .center)
                 guard testownik.isCurrentValid else {   return     }
                 butt.setTitle((i < totalQuest) ? Setup.getNumericPict(number: i) + options[i].answerOption : "", for: .normal)
+                print("- ask\(i): \(butt.titleLabel?.text ?? "?")")
                 butt.layer.borderWidth = 1
                 butt.layer.borderColor = UIColor.brown.cgColor
                 markSelected(forButton: butt, optionNr: i)
