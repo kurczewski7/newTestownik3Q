@@ -355,6 +355,11 @@ class Manager: ManagerDataSource  {
             loteryTestBasket.removeElem { elem in
                 return elem.fileNumber == aTest.fileNumber ? true : false
             }
+            if  allTestPull.isNotEmpty() && loteryTestBasket.count < groupSize {
+                if let newElem = allTestPull.getLastElement(deleteItAfter: true) {
+                    loteryTestBasket.append(newElem)
+                }
+            }
             return aTest.fileNumber
         }
         return 0

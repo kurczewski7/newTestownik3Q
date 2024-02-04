@@ -124,6 +124,15 @@ extension Array  {
         }
         return retVal
     }
+    mutating func getLastElement(deleteItAfter delete: Bool) -> Element? {
+        var retVal: Element
+        guard self.isNotEmpty() else { return nil }
+        retVal = self.last()!
+        if delete {
+            self.remove(at: self.count - 1)
+        }
+        return retVal
+    }
     mutating func getElement(forIndex index : Int, deleteItAfter delete: Bool) -> Element? {
         var retVal: Element
         guard self.isInRange(index) else { return nil }
