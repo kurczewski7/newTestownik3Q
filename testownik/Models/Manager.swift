@@ -146,6 +146,7 @@ class Manager: ManagerDataSource  {
             if fileNumber != oldValue {
                 print("Old fileNumer: \(oldValue), new \(fileNumber)  ")
                 delegate?.refreshView()
+                checkTestFinished(forFileNumber: oldValue)
             }
             else { print("THE SAME FILE NUMBER: \(fileNumber)")}
         }
@@ -167,6 +168,8 @@ class Manager: ManagerDataSource  {
                 //let percent =  testList.count > 0 ? Int((finishedTest.count * 100) / testList.count) : 0
                 let percent =  historycalTest.count > 0 ? Int(((currentPosition + 1) * 100) / historycalTest.count) : 0
                 delegate?.progress(forCurrentPosition: currentPosition, totalPercent: percent)
+                checkedStatus = false
+                //checkIsTestFinished(forFileNumber: oldValue)
             }
         }
     }
@@ -201,6 +204,12 @@ class Manager: ManagerDataSource  {
         //let xx = currentTest
     }
     // MARK: methods
+    func checkTestFinished(forFileNumber fileNumber: Int) {
+        guard fileNumber >= 0 else { return }
+        if let aTest  = loteryTestBasket.getRemovedElem({  $0.fileNumber == fileNumber ? true : false }) {
+            finishedTest.append(aTest)
+        }
+    }
     func changeAnswer(forNumberOption number: Int) {
         guard historycalTest.isInRange(currentPosition), historycalTest[currentPosition].answerOptions.isInRange(number) else {  return }
         historycalTest[currentPosition].answerOptions[number].lastYourCheck.toggle()
@@ -349,12 +358,14 @@ class Manager: ManagerDataSource  {
         if var aTest = getUniqueElement(forLastValue: self.fileNumber) {
             addSortedKey(toTest: &aTest)
             //MARK: todo
-            aTest.answerOptions[1].lastYourCheck
+            //aTest.answerOptions[1].lastYourCheck
             historycalTest.append(aTest)
+            
             // MARK: TO DO delete
-            loteryTestBasket.removeElem { elem in
-                return elem.fileNumber == aTest.fileNumber ? true : false
-            }
+//            _ = loteryTestBasket.removeElem {  $0.fileNumber == aTest.fileNumber ? true : false }
+//            finishedTest.append(aTest)
+            
+            
             if  allTestPull.isNotEmpty() && loteryTestBasket.count < groupSize {
                 if let newElem = allTestPull.getLastElement(deleteItAfter: true) {
                     loteryTestBasket.append(newElem)

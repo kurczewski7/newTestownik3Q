@@ -247,5 +247,23 @@ extension Array  {
         }
         return self
     }
+    mutating func getRemovedElem(_ conditionForDelete: (Self.Element) -> Bool)  -> Element? {
+        var index = -1
+        var retVal: Element? = nil
+        guard self.isNotEmpty() else { return nil }
+        let tmpArr = self.map(conditionForDelete)
+        print("tmpArr: \(tmpArr)")
+        for i  in (0..<tmpArr.count).reversed() {
+            if tmpArr[i] == true {
+                index = i
+                break
+            }
+        }
+        if index >= 0 {
+            retVal = self[index]
+            self.remove(at: index)
+        }
+        return retVal
+    }
 }
 
