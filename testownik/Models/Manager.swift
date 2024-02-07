@@ -146,7 +146,7 @@ class Manager: ManagerDataSource  {
             if fileNumber != oldValue {
                 print("Old fileNumer: \(oldValue), new \(fileNumber)  ")
                 delegate?.refreshView()
-                checkTestFinished(forFileNumber: oldValue)
+                //checkTestFinished(forFileNumber: oldValue)
             }
             else { print("THE SAME FILE NUMBER: \(fileNumber)")}
         }
@@ -155,6 +155,7 @@ class Manager: ManagerDataSource  {
         didSet {
             if currentPosition != oldValue  {
                 if let fileNr = currentHistory?.fileNumber {
+                    checkTestFinished(forFileNumber: self.fileNumber)
                     self.fileNumber = fileNr
                 }
                 self.currentTest = getCurrentTest()
