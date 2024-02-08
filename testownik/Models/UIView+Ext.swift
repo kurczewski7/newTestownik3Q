@@ -184,7 +184,24 @@ extension Array  {
         }
         return retVal
     }
+    mutating func swapElementBetwin(sourceIndex index: Int , toDestination destination: inout [Element], deleteItAfter delete: Bool) -> IndexValue? {
+        // fromSource source: [Element],
+        var retVal: IndexValue
+        guard self.count > 0 else { return nil }
+        guard self.isInRange(index) else { return nil }
+        let elem = self[index]
+        if delete {
+            self.remove(at: index)
+        }
+        destination.append(elem)
+        retVal.index = index
+        retVal.value = elem
+        //let ccc = self.randomRange(0..<self.count)
+         return retVal
+    }
 
+//      let idx = randomOrder(toMax: self.count)
+//      let idx = randomRange(0..<self.count)
     func createSortKey() -> [Int] {
         let len = self.count
         guard len > 0 else { return [Int]() }

@@ -152,10 +152,9 @@ class Manager: ManagerDataSource  {
         }
     }
     fileprivate func getFileNumber(forPosition position: Int) -> Int? {
-        var newFileNumber: Int = 0
         guard historycalTest.isInRange(position)  else { return nil  }
-        let tmpFileNumber =  historycalTest[position].fileNumber
-        guard testList.isInRange(tmpFileNumber)  else { return nil }
+        let newFileNumber =  historycalTest[position].fileNumber
+        guard testList.isInRange(newFileNumber)  else { return nil }
         return newFileNumber
     }
     
