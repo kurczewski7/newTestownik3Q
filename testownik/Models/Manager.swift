@@ -151,13 +151,33 @@ class Manager: ManagerDataSource  {
             else { print("THE SAME FILE NUMBER: \(fileNumber)")}
         }
     }
+    fileprivate func getFileNumber(forPosition position: Int) -> Int? {
+        var newFileNumber: Int = 0
+        guard historycalTest.isInRange(position)  else { return nil  }
+        let tmpFileNumber =  historycalTest[position].fileNumber
+        guard testList.isInRange(tmpFileNumber)  else { return nil }
+        return newFileNumber
+    }
+    
     var currentPosition: Int = -1 {
         didSet {
+            print("OLD fileNumber \(self.fileNumber)")
             if currentPosition != oldValue  {
-                if let fileNr = currentHistory?.fileNumber {
-                    checkTestFinished(forFileNumber: self.fileNumber)
-                    self.fileNumber = fileNr
+                if let oldFileNumber = getFileNumber(forPosition: oldValue) {
+                    checkTestFinished(forFileNumber: oldFileNumber)
+                    print("OLD oldFileNumber \(oldFileNumber)")
                 }
+                if let newFileNumber = getFileNumber(forPosition: currentPosition) {
+                    self.fileNumber = newFileNumber
+                    print("OLD oldFileNumber \(newFileNumber)")
+                }
+//                let oldTest = historycalTest[oldValue]
+//                if testList.isInRange(oldValue)  {
+//                    let oldFileNumber = testList[oldValue].fileNumber
+//                     print("OLD oldFileNumber \(oldFileNumber)")
+//                     checkTestFinished(forFileNumber: self.fileNumber)
+//                }
+
                 self.currentTest = getCurrentTest()
                 self.curFilePos = .other
                 if currentPosition == 0 {

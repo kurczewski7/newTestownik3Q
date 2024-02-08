@@ -200,6 +200,9 @@ extension Array  {
             sortedArray.append(tmpArray[position])
             tmpArray.remove(at: position)
         }
+//        if sortedArray.count != len {
+//            return [Int]()
+//        }
         return sortedArray
     }
     func sortArray(forUserKey aKey: [Int]?) -> [Element] {
@@ -213,6 +216,7 @@ extension Array  {
         guard let key = aKey else { return self }
         guard key.isNotEmpty() else { return self }        
         let len = Swift.min(self.count, key.count)
+        guard len == key.count else { return self }
          // [1, 2, 0]
         for i in 0..<len {
             retVal.append(self[key[i]])
@@ -224,6 +228,10 @@ extension Array  {
         var retVal: [Element] = [Element]()          // [1, 2, 0]
         for _ in 0..<len {
             retVal.append(self[0])
+        }
+        // TODO: error
+        if len != key.count {
+            return self
         }
         for i in 0..<len {                          // [1, 2, 0]        [bb, cc, aa] -> [aa  , bb , cc ]
             retVal[key[i]] = self[i]
@@ -242,9 +250,10 @@ extension Array  {
                 break
             }
         }
-        if index >= 0 {
-            self.remove(at: index)
-        }
+        // TODO: error
+//        if index >= 0 {
+//            self.remove(at: index)
+//        }
         return self
     }
     mutating func getRemovedElem(_ conditionForDelete: (Self.Element) -> Bool)  -> Element? {
