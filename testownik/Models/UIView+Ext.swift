@@ -89,12 +89,15 @@ extension Array  {
     func isExistNext(_ index: Int) -> Bool {
         return index >= 0 && index < self.count - 1
     }
-    // MARKT : Method randomOrder: for toMax = 10 get from 0 to 9
+    // MARK: Method randomOrder: for toMax = 10 get from 0 to 9
     func randomOrder(toMax: Int) -> Int {
         return Int(arc4random_uniform(UInt32(toMax)))
     }
     func randomRange(_ range: Range<Int>) -> Int {
         return Int.random(in: range)
+    }
+    func randomIndex() -> Index {
+        return randomRange(0..<self.count)
     }
     func changeSubArryyOrder(forSubArray array: [Element], fromPosition start: Int, count: Int) -> [Element] {
         //let array = self
@@ -217,9 +220,9 @@ extension Array  {
             sortedArray.append(tmpArray[position])
             tmpArray.remove(at: position)
         }
-//        if sortedArray.count != len {
-//            return [Int]()
-//        }
+        if sortedArray.count != len {
+            return [Int]()
+        }
         return sortedArray
     }
     func sortArray(forUserKey aKey: [Int]?) -> [Element] {
